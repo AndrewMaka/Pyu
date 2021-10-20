@@ -1,0 +1,10 @@
+#Добавьте в __init__.py константу GREETING, которая должна содержать результат применения функции greet() к константе NAME (и та, и другая импортируются из модулей пакета в блоке импортов модуля __init__.py).
+
+from package.functions import greet 
+#def greet(name):
+    #return 'Hello, {}!'.format(name)
+from package.names import NAME 
+#NAME = 'Bob'
+
+
+GREETING = greet(NAME)
