@@ -1,0 +1,8 @@
+def sort_pair(napy):
+    a = napy[0]
+    b = napy[1]
+    if a >= b:
+        return (b, a)
+    else:
+        return (a, b)
+    
