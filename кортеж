@@ -1,5 +1,0 @@
-def sort_pair(napy):
-    if napy[0] >= napy[1]:
-        return (napy[1], napy[0])
-    else:
-        return napy
